@@ -32,12 +32,6 @@ main {
 
 }
 
-#bottombody {
-    height: 20%;
-    width: 100%;
-    background-color: brown;
-}
-
 #logo {
     width: 40%;
     height: 100%;
@@ -56,5 +50,28 @@ main {
     font-size: 6vw;
     color: white;
     flex-grow: 1;
+}
+
+nav {
+    height: 20%;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navele {
+    display: flex;
+    align-content: flex-end;
+    height: 70%;
+    background-color: #d9d9d9;
+    width: 30%;
+    background-image: url(./Assets/barcode.PNG);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: black;
 }
 
