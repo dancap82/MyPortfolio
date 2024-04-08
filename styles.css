@@ -17,7 +17,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: 'Julius';
 }
 
 main {
@@ -49,8 +48,13 @@ main {
 }
 
 #title {
+    display: flex;
+    align-items: center;
     width: 80%;
     height: 100%;
-    font-size: 96px;
+    font-family: 'Julius';
+    font-size: 6vw;
     color: white;
+    flex-grow: 1;
 }
+
