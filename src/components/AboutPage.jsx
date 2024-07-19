@@ -27,21 +27,8 @@ function AboutPage() {
           <div className="w-full md:w-1/2 p-4 overflow-y-auto text-white">
             <h2 className="text-2xl mb-4">About Me</h2>
             <p className="mb-2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. 
+            My name is Daniele Capaccetti, and I recently graduated from a comprehensive full stack web development bootcamp, where I built a strong foundation in HTML5, CSS3, and responsive web design. I excel in frontend programming with JavaScript and React, and possess robust backend development skills with Node.js and Express. My expertise extends to version control systems like Git and GitHub, and I have experience with both SQL and NoSQL databases. I am proficient in creating and consuming RESTful APIs, performing unit testing, and utilizing Agile tools and methodologies to ensure efficient and effective development workflows. In addition to my development skills, I bring 13 years of experience as a Quality Assurance (QA) professional, specializing in linguistic and functionality testing, and integrating advanced automation strategies to enhance product quality. This unique combination of web development and QA expertise enables me to deliver high-quality, comprehensive solutions in dynamic environments.
             </p>
-            <p className="mb-2">
-              Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero.
-            </p>
-            <p className="mb-2">
-              Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. 
-            </p>
-            <p className="mb-2">
-              Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-            </p>
-            <p className="mb-2">
-              Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices.
-            </p>
-            {/* Add more text as needed */}
           </div>
         </div>
       </div>

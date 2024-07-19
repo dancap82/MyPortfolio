@@ -41,9 +41,9 @@ function ProjectsPage() {
   };
 
   const projects = [
-    { id: 1, image: ProjectImage1, link: '/project1', title: 'Project 1' },
-    { id: 2, image: ProjectImage2, link: '/project2', title: 'Project 2' },
-    { id: 3, image: ProjectImage3, link: '/project3', title: 'Project 3' },
+    { id: 1, image: ProjectImage1, link: 'https://freebie-it.netlify.app/', title: 'Freebie it', github: 'https://github.com/dancap82/zuVerschenken' },
+    { id: 2, image: ProjectImage2, link: 'https://tasty-dev.netlify.app/', title: 'Tasty-dev', github: 'https://github.com/dancap82/CookReact' },
+    { id: 3, image: ProjectImage3, link: 'https://pokefight-dev.netlify.app/', title: 'Pokefight-dev', github: 'https://github.com/dancap82/PokeFight' },
     // Add more projects as needed
   ];
 
@@ -79,6 +79,11 @@ function ProjectsPage() {
                     <span className="absolute bottom-0 bg-black bg-opacity-50 text-white w-full text-center py-2">{project.title}</span>
                   </div>
                 </Link>
+                <div className="text-center mt-2 text-white">
+                  <a href={project.github} className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
+                    GitHub Link
+                  </a>
+                </div>
               </div>
             ))}
           </Slider>
